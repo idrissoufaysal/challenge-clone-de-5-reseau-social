@@ -12,18 +12,22 @@ export const Colors = {
   light: {
     text: '#11181C',
     background: '#fff',
-    tint: tintColorLight,
+    tint: '#008069', // WhatsApp Green
     icon: '#687076',
     tabIconDefault: '#687076',
-    tabIconSelected: tintColorLight,
+    tabIconSelected: '#008069',
+    headerBackground: '#008069',
+    headerTintColor: '#fff',
   },
   dark: {
     text: '#ECEDEE',
-    background: '#151718',
-    tint: tintColorDark,
+    background: '#121B20',
+    tint: '#00A884', // WhatsApp Light Green for Dark Mode
     icon: '#9BA1A6',
     tabIconDefault: '#9BA1A6',
-    tabIconSelected: tintColorDark,
+    tabIconSelected: '#00A884',
+    headerBackground: '#1F2C34',
+    headerTintColor: '#ECEDEE',
   },
 };
 
