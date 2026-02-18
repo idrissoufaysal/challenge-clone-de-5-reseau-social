@@ -2,13 +2,22 @@ import { View, Text, TouchableOpacity, Image, ImageBackground } from 'react-nati
 import React from 'react'
 import { Story } from '@/data/story'
 
-export default function StoryRow({story}: {story: Story}) {
+export default function StoryRow({ story }: { story: Story }) {
     return (
-        <TouchableOpacity className='absolute'>
-            <ImageBackground source={{ uri: story.img }} className='w-24 h-44 rounded-3xl ml-2'>
-                <Image source={{ uri: story.img }} className="w-12 h-12 rounded-full relative top-3 left-3 border-2 border-green-500 " />
+        <TouchableOpacity className='mr-2 relative'>
+            <ImageBackground
+                source={{ uri: story.img }}
+                className='w-20 min-h-32 rounded-xl overflow-hidden justify-between'
+                imageStyle={{ borderRadius: 12 }}
+            >
+                <View className="absolute top-1 left-1 bg-blue-500 rounded-full border-2 border-green-500">
+                    <Image source={{ uri: story.img }} className="w-8 h-8 rounded-full " />
+                </View>
+                <View className="flex-1" />
+                <Text className='text-white font-bold p-2 text-sm shadow-md' numberOfLines={2}>
+                    {story.name}
+                </Text>
             </ImageBackground>
-            <Text className='absolute bottom-2 left-2 text-white'>{story.from}</Text>
         </TouchableOpacity>
     )
 }
