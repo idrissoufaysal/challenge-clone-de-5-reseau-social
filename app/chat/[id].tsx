@@ -34,6 +34,7 @@ export default function ChatDetailScreen() {
     }
 
     return (
+
         <ImageBackground
             source={{ uri: 'https://i.pinimg.com/originals/97/c0/07/97c00759d90d786d9b6096d274ad3e07.png' }}
             style={[styles.backgroundImage, { backgroundColor: theme.background }]}
@@ -55,7 +56,10 @@ export default function ChatDetailScreen() {
                         <Input placeholder="Enter your email" className='w-full' />
                     </TextField>
                     <Button isIconOnly className='bg-green-500 rounded-full p-3 items-center justify-center'>
-                        <MaterialIcons name="mic" size={24} color="white" />                    </Button>
+                        <Text>
+                            <MaterialIcons name="mic" size={24} color="white" />
+                        </Text>
+                    </Button>
                 </View>
             </KeyboardAvoidingView>
         </ImageBackground>

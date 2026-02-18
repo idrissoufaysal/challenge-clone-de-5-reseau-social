@@ -1,10 +1,12 @@
 import { View, Text, TouchableOpacity, Image, ImageBackground } from 'react-native'
 import React from 'react'
 import { Story } from '@/data/story'
+import { useRouter } from 'expo-router'
 
 export default function StoryRow({ story }: { story: Story }) {
+    const router = useRouter();
     return (
-        <TouchableOpacity className='mr-2 relative'>
+        <TouchableOpacity className='mr-2 relative' onPress={() => router.push(`/status/${story.id}` as any)}>
             <ImageBackground
                 source={{ uri: story.img }}
                 className='w-20 min-h-32 rounded-xl overflow-hidden justify-between'

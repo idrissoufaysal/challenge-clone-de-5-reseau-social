@@ -27,9 +27,9 @@ export default function ChanelRows({ item }: ChanelRowsProps) {
                             <Text className="text-[16px] font-semibold" style={{ color: theme.text }}>
                                 {item.from}
                             </Text>
-                            <Text className="text-gray-500 text-sm">
-                                {item.date}
-                            </Text>
+                            <View className="px-5 py-2 mr-3 bg-green-100 rounded-2xl">
+                                <Text className='font-bold text-green-700'>Suivre</Text>
+                            </View>
                         </View>
                         <Text className="text-gray-500 line-clamp-1" numberOfLines={1}>
                             {item.msg}

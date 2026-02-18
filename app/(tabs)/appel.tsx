@@ -5,10 +5,11 @@ import { Button } from 'heroui-native'
 
 export default function appel() {
   return (
-    <View className='bg-[#077412] flex-1 justify-center items-center'>
-      <Text>appel</Text>
-      <Button onPress={()=>alert('hello world')}>  
-       Ajouter
+    <View className='flex-1 justify-center items-center'>
+      <Button onPress={() => alert('hello world')}>
+        <Text className='text-white'>
+          Appeler
+        </Text>
       </Button>
     </View>
   )
