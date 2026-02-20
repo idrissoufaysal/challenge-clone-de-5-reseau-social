@@ -1,0 +1,61 @@
+export const jobs = [
+    {
+        id: '1',
+        title: 'Senior React Native Developer',
+        company: 'Tech Innovations Inc.',
+        logo: 'https://logo.clearbit.com/google.com',
+        location: 'San Francisco, CA',
+        type: 'Remote',
+        time: '2 hours ago',
+        promoted: true,
+        applicants: 45,
+    },
+    {
+        id: '2',
+        title: 'Frontend Engineer',
+        company: 'Creative Solutions',
+        logo: 'https://logo.clearbit.com/facebook.com',
+        location: 'New York, NY',
+        type: 'Hybrid',
+        time: '1 day ago',
+        promoted: false,
+        applicants: 12,
+    },
+    {
+        id: '3',
+        title: 'Product Designer',
+        company: 'Design & Co.',
+        logo: 'https://logo.clearbit.com/airbnb.com',
+        location: 'Remote',
+        type: 'Full-time',
+        time: '3 days ago',
+        promoted: true,
+        applicants: 120,
+    },
+    {
+        id: '4',
+        title: 'Software Engineer III',
+        company: 'Netflix',
+        logo: 'https://logo.clearbit.com/netflix.com',
+        location: 'Los Gatos, CA',
+        type: 'On-site',
+        time: '5 days ago',
+        promoted: true,
+        applicants: 200,
+    },
+    {
+        id: '5',
+        title: 'Data Analyst',
+        company: 'Spotify',
+        logo: 'https://logo.clearbit.com/spotify.com',
+        location: 'Stockholm, Sweden',
+        type: 'Remote',
+        time: '1 week ago',
+        promoted: false,
+        applicants: 30,
+    },
+];
+
+export const recommendedSearches = [
+    'Software Engineer', 'Remote', 'React Native', 'Product Manager', 'Marketing'
+];
