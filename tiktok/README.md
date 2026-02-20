@@ -1,6 +1,6 @@
 # 🎵 Jour 5 — Clone TikTok
 
-> **Challenge #5** de la série *Clone des 5 Grands Réseaux Sociaux*  
+> **Challenge #5** de la série *Clone des 5 Grands Réseaux Sociaux*
 > Reproduire l'interface mobile de **TikTok** avec React Native & Expo.
 
 ---
