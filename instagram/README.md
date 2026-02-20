@@ -1,6 +1,6 @@
 # 📸 Jour 4 — Clone Instagram
 
-> **Challenge #4** de la série *Clone des 5 Grands Réseaux Sociaux*  
+> **Challenge #4** de la série *Clone des 5 Grands Réseaux Sociaux*
 > Reproduire l'interface mobile d'**Instagram** avec React Native & Expo.
 
 ---
